@@ -1,0 +1,65 @@
+<!-- Copyright (c) 2016 Lewis Hunt -->
+
+<!-- Where's My Seat is an educational game designed to teach coordinates to under 12s -->
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<title>Where's My Seat?</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" href="css/style.css">
+
+		<link rel="stylesheet" href="css/animate.css">
+		
+	</head>
+  
+	<body id="body">
+
+		<div class="header-banner"></div>	
+		
+		<div class="main-content">
+			
+			<div id="screen" class="screen"><div class="font-light">SCREEN</div></div>
+
+			<div id="seats-container" class="seats-container"></div>
+
+		</div>
+
+		<div class="footer-banner">	</div> 
+			
+		<div class="hidden-inner-container">
+			<div class="score animated">
+				<div class="font-italic animated">0</div>
+			</div>
+		</div>	
+
+		<div class="rabbit animated"></div>
+
+		<div class="ticket animated">
+			<div class="font-bold animated"></div>
+		</div>
+		
+		<div class="message animated font-bold-italic"></div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	
+		<script src="js/app.js"></script>
+
+		<script type='text/javascript'>
+
+			$(document).ready(function() {
+
+				RabbitSitter.init();
+			
+			});
+
+		</script>	
+	
+	</body>
+	
+</html>
