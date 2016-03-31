@@ -3,4 +3,6 @@ Where's My Seat is an educational game written in JavaScript designed to teach c
 Demo: http://lewhunt.github.io/wheres-my-seat
 
 ## Example
-![Example](images/wheres-my-seat.gif)
+Screengrab showing game in mobile format:
+
+![Example](images/wheres-my-seat-2.gif)
