@@ -5,4 +5,4 @@ Demo: http://lewhunt.github.io/wheres-my-seat
 ## Example
 Screengrab showing game in mobile format:
 
-![Example](images/wheres-my-seat.gif)
+![Example](images/wheres-my-seat-10.gif)
